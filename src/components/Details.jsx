@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import DetailBlock from './DetailBlock';
 import '../styles/Details.scss';
 const data = [
@@ -31,7 +30,5 @@ const Details = (props) => {
 		</div>
 	);
 };
-
-Details.propTypes = {};
 
 export default Details;

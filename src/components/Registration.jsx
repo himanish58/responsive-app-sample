@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Input from './Input';
 import '../styles/Registration.scss';
 
@@ -17,7 +16,5 @@ const Registration = (props) => {
 		</div>
 	);
 };
-
-Registration.propTypes = {};
 
 export default Registration;

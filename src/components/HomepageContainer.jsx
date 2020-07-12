@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Details from './Details';
 import NewsFeed from './NewsFeed';
 import Registration from './Registration';
@@ -14,7 +13,5 @@ const HomepageContainer = (props) => {
 		</div>
 	);
 };
-
-HomepageContainer.propTypes = {};
 
 export default HomepageContainer;

@@ -6,7 +6,7 @@ const DetailBlock = ({ title, description, showViewMore }) => {
 		<div className="detail-block">
 			<h3 className="detail-block-title">{title}</h3>
 			<div className="detail-block-description">{description}</div>
-			{showViewMore && <a href="#">View More</a>}
+			{showViewMore && <a href="/about">View More</a>}
 		</div>
 	);
 };

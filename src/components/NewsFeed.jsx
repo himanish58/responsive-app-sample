@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import NewsBlock from './NewsBlock';
 import '../styles/NewsFeed.scss';
 
@@ -19,7 +18,5 @@ const NewsFeed = (props) => {
 		</div>
 	);
 };
-
-NewsFeed.propTypes = {};
 
 export default NewsFeed;
