@@ -1,30 +1,32 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import DetailBlock from './DetailBlock';
 import '../styles/Details.scss';
+const data = [
+	{
+		title: 'Welcome Lorem',
+		description:
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, reprehenderit sit! Ipsa esse eaque illum accusantium molestiae voluptatum debitis, asperiores saepe vero reiciendis. Est, dolor aliquam voluptatum amet praesentium tenetur nobis qui asperiores eveniet dolorem blanditiis repellendus porro? Officia sint praesentium quidem fugiat neque porro at dignissimos suscipit aut sunt?',
+		showViewMore: false,
+	},
+	{
+		title: 'About Us',
+		description:
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repellendus reprehenderit nulla ea explicabo officia assumenda, perferendis impedit exercitationem quam enim consequuntur, maxime culpa commodi recusandae debitis consequatur veniam. Corrupti.',
+		showViewMore: true,
+	},
+];
 
 const Details = (props) => {
 	return (
 		<div className="details">
-			<div className="welcome">
-				<h3>Welcome Lorem</h3>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga maiores
-					architecto quo quod inventore autem suscipit voluptatem quae? Quo
-					obcaecati facere reprehenderit harum iusto dolorum sunt magni
-					voluptates accusamus qui consectetur, fugiat fugit exercitationem
-					distinctio. Sequi veritatis dignissimos, dolor vel aliquid,
-					consequatur, commodi perspiciatis tempore aut sint voluptate fugit
-					dolore.
-				</p>
-			</div>
-			<div className="about">
-				<h3>About Us</h3>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint numquam
-					iure, ad odit iusto non. Culpa in distinctio veritatis ab!
-					<a href="#">View More</a>
-				</p>
-			</div>
+			{data.map(({ title, description, showViewMore }) => (
+				<DetailBlock
+					title={title}
+					description={description}
+					showViewMore={showViewMore}
+				/>
+			))}
 		</div>
 	);
 };

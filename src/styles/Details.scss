@@ -1,6 +1,10 @@
-.welcome,
-.about {
+.detail-block {
 	background-color: indianred;
-	padding: 16px;
-	margin-bottom: 20px;
+	padding: 1rem;
+	margin-bottom: 1.25rem;
+
+	.detail-block-description {
+		font-size: 0.875rem;
+		display: inline;
+	}
 }
