@@ -5,7 +5,7 @@ import '../styles/Registration.scss';
 const Registration = (props) => {
 	return (
 		<div className="registration">
-			<h3>Registration</h3>
+			<h2>Registration</h2>
 			<label htmlFor="name">Name</label>
 			<input type="text" name="registration" id="name" />
 			<label htmlFor="name">Email</label>
