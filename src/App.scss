@@ -23,6 +23,7 @@ h3,
 h2,
 .detail-block {
 	color: $primary-color;
+	margin-top: 0;
 }
 
 .details,
@@ -51,5 +52,17 @@ h2,
 
 	&:last-child {
 		background-color: $about-bg;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.homepage-container {
+		flex-direction: column;
+
+		.details,
+		.news-feed,
+		.registration {
+			border: none;
+		}
 	}
 }

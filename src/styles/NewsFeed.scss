@@ -1,7 +1,7 @@
 .news-feed {
 	.news-container {
 		display: flex;
-		margin-bottom: 20px;
+		margin-bottom: 1.25rem;
 
 		.color-block {
 			width: 20%;
@@ -10,7 +10,7 @@
 		.news-block {
 			display: flex;
 			flex-direction: column;
-			padding: 16px;
+			padding: 1rem;
 			width: 80%;
 
 			h4 {

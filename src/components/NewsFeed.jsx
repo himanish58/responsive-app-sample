@@ -14,7 +14,7 @@ const NewsFeed = (props) => {
 		<div className="news-feed">
 			<h2>News Feed</h2>
 			{data.map(({ title, date, name }) => (
-				<NewsBlock title={title} date={date} name={name} />
+				<NewsBlock key={title} title={title} date={date} name={name} />
 			))}
 		</div>
 	);

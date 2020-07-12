@@ -22,6 +22,7 @@ const Details = (props) => {
 		<div className="details">
 			{data.map(({ title, description, showViewMore }) => (
 				<DetailBlock
+					key={title}
 					title={title}
 					description={description}
 					showViewMore={showViewMore}

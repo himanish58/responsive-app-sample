@@ -1,17 +1,17 @@
 .header {
-	height: 100px;
+	height: 6.25rem;
 	width: 100%;
 	box-sizing: border-box;
 	position: fixed;
 	top: 0;
 	left: 0;
-	padding: 0 20px;
+	padding: 0 1.25rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 
 	.logo {
-		height: 80px;
-		width: 80px;
+		height: 5rem;
+		width: 5rem;
 	}
 }
