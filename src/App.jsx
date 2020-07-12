@@ -1,5 +1,6 @@
 import React from 'react';
-import './App.scss';
+// import './App.scss';
+import HomepageContainer from './components/HomepageContainer';
 
 import Header from './components/Header';
 
@@ -7,7 +8,7 @@ function App() {
 	return (
 		<>
 			<Header />
-			<div className="homepage-container">
+			{/* <div className="homepage-container">
 				<div className="details">
 					<div className="welcome">
 						<h3>Welcome Lorem</h3>
@@ -76,7 +77,8 @@ function App() {
 						<button className="submit">Submit</button>
 					</div>
 				</div>
-			</div>
+			</div> */}
+			<HomepageContainer />
 		</>
 	);
 }

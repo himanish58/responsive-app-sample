@@ -1,0 +1,27 @@
+.news-highlight {
+	display: flex;
+	border: 1px solid blue;
+	margin-bottom: 20px;
+
+	.color-block {
+		background-color: blue;
+		width: 20%;
+	}
+
+	.news-block {
+		display: flex;
+		flex-direction: column;
+		padding: 16px;
+		width: 80%;
+
+		h4 {
+			border-bottom: 1px solid blue;
+			text-transform: uppercase;
+		}
+
+		.date-name {
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+}

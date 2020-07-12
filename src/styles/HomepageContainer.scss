@@ -1,0 +1,23 @@
+.homepage-container {
+	margin-top: 200px;
+	display: flex;
+
+	.details,
+	.news-feed,
+	.registration {
+		display: flex;
+		flex-direction: column;
+		flex: 1;
+		padding: 0 20px;
+		border-right: 1px solid black;
+		min-width: 0;
+
+		&:last-child {
+			border-right: none;
+		}
+
+		h3 {
+			margin-top: 0;
+		}
+	}
+}

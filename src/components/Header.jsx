@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import TextInput from './TextInput';
-import './Header.scss';
+import '../styles/Header.scss';
 
 const Header = (props) => {
 	return (
