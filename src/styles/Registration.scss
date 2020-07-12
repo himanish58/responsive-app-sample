@@ -1,36 +1,17 @@
-label {
-	margin-bottom: 12px;
-}
-
-input {
-	padding: 12px;
-	box-shadow: none;
-	border: 1px solid grey;
-	margin-bottom: 20px;
-}
-
 .buttons-block {
 	display: flex;
 	justify-content: center;
 
 	button {
 		border-radius: 0;
-		padding: 12px 0;
-		font-size: 16px;
-		width: 150px;
+		padding: 0.75rem 0;
+		font-size: 1rem;
+		font-weight: 600;
+		width: 10rem;
 		border: 1px solid blue;
 
 		&:first-child {
 			margin-right: 20px;
 		}
-	}
-
-	.cancel {
-		background-color: transparent;
-	}
-
-	.submit {
-		background-color: blue;
-		color: white;
 	}
 }

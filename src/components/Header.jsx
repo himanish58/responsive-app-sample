@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import TextInput from './TextInput';
+import Input from './Input';
 import '../styles/Header.scss';
 
 const Header = (props) => {
@@ -11,7 +11,12 @@ const Header = (props) => {
 				alt="logo"
 				className="logo"
 			/>
-			<TextInput />
+			<Input
+				type="text"
+				label="Search"
+				placeholder="Search..."
+				isSearchBar={true}
+			/>
 		</header>
 	);
 };

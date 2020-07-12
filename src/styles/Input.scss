@@ -1,0 +1,18 @@
+input {
+	padding: 0.75rem;
+	box-shadow: none;
+	min-width: 0;
+
+	&.search-bar {
+		border: none;
+		width: 13rem;
+	}
+
+	&.registration-input {
+		margin-bottom: 1.25rem;
+	}
+}
+
+label {
+	margin-bottom: 0.75rem;
+}
