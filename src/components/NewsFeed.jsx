@@ -13,36 +13,6 @@ const NewsFeed = (props) => {
 	return (
 		<div className="news-feed">
 			<h2>News Feed</h2>
-			{/* <div className="news-container">
-				<div className="color-block"></div>
-				<div className="news-block">
-					<h4>Centralise</h4>
-					<div className="date-name">
-						<div className="date">Oct 27, 2019</div>
-						<div className="name">Benjamin</div>
-					</div>
-				</div>
-			</div>
-			<div className="news-highlight">
-				<div className="color-block"></div>
-				<div className="news-block">
-					<h4>Centralise</h4>
-					<div className="date-name">
-						<div className="date">Oct 27, 2019</div>
-						<div className="name">Benjamin</div>
-					</div>
-				</div>
-			</div>
-			<div className="news-highlight">
-				<div className="color-block"></div>
-				<div className="news-block">
-					<h4>Centralise</h4>
-					<div className="date-name">
-						<div className="date">Oct 27, 2019</div>
-						<div className="name">Benjamin</div>
-					</div>
-				</div>
-			</div> */}
 			{data.map(({ title, date, name }) => (
 				<NewsBlock title={title} date={date} name={name} />
 			))}

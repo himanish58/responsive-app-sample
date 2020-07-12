@@ -1,11 +1,9 @@
 .news-feed {
 	.news-container {
 		display: flex;
-		border: 1px solid blue;
 		margin-bottom: 20px;
 
 		.color-block {
-			background-color: blue;
 			width: 20%;
 		}
 
@@ -16,7 +14,6 @@
 			width: 80%;
 
 			h4 {
-				border-bottom: 1px solid blue;
 				text-transform: uppercase;
 				margin: 0;
 				padding-bottom: 1rem;
