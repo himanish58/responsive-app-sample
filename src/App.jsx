@@ -1,16 +1,12 @@
 import React from 'react';
 import './App.scss';
 
+import Header from './components/Header';
+
 function App() {
 	return (
 		<>
-			<header>
-				<img
-					src="https://cdn.pixabay.com/photo/2016/08/25/07/30/orange-1618917_1280.png"
-					alt="logo"
-				/>
-				<input type="text" name="search" placeholder="Search..." />
-			</header>
+			<Header />
 			<div className="homepage-container">
 				<div className="details">
 					<div className="welcome">
